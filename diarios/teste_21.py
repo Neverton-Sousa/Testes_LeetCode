@@ -39,30 +39,4 @@ class Solution:
         return -1
 
 
-# Você tem uma fechadura à sua frente com 4 rodas circulares. Cada roda possui 10 slots: '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'. As rodas podem girar livremente e girar: por exemplo, podemos virar '9'para ser '0'ou '0'para ser '9'. Cada movimento consiste em girar uma roda em um slot.
-
-# O bloqueio começa inicialmente em '0000', uma string que representa o estado das 4 rodas.
-
-# Você recebe uma lista de deadendsbecos sem saída, o que significa que se a fechadura exibir algum desses códigos, as rodas da fechadura pararão de girar e você não conseguirá abri-la.
-
-# Dado um targetrepresentando o valor das rodas que irão destravar a fechadura, retorne o número total mínimo de voltas necessárias para abrir a fechadura, ou -1 se for impossível.
-
-
-# Exemplo 1:
-
-# Entrada: becos sem saída = ["0201","0101","0102","1212","2002"], alvo = "0202"
-#  Saída: 6
-#  Explicação:
-# Uma sequência de movimentos válidos seria "0000" -> "1000" -> "1100" -> "1200" -> "1201" -> "1202" -> "0202".
-# Observe que uma sequência como "0000" -> "0001" -> "0002" -> "0102" -> "0202" seria inválida,
-# porque as rodas da fechadura ficam presas depois que o display se torna o beco sem saída "0102".
-# Exemplo 2:
-
-# Entrada: becos sem saída = ["8888"], alvo = "0009"
-#  Saída: 1
-#  Explicação: Podemos girar a última roda ao contrário para passar de "0000" -> "0009".
-# Exemplo 3:
-
-# Entrada: becos sem saída = ["8887","8889","8878","8898","8788","8988","7888","9888"], alvo = "8888"
-#  Saída: -1
-#  Explicação: Nós não consegue atingir o alvo sem ficar preso.
+# r
