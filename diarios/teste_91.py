@@ -14,4 +14,4 @@ class Solution:
         while len(s) and len(d) and s[-1] == d[-1]:
             s.pop()
             d.pop()
-        return "".join("U" * len(s)) + "".join(reversed(d)
+        return "".join("U" * len(s)) + "".join(reversed(d))
